@@ -6,6 +6,14 @@ public class WaterData {
     private double cost;   // USD / litter
     private double loss;   // Percentage (0-1)
 
+        // Example
+        // {
+        //     "Zone"  : Zone A,
+        //     "Demand": 500 L, 
+        //     "Cost"  : 0.50 usd/l, 
+        //     "Loss"  : 0.05
+        // }
+
     public WaterData(String name, double demand, double cost, double loss) {
         this.name = name;
         this.demand = demand;
